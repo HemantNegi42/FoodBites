@@ -1,1 +1,2 @@
 export const logo = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFpFiveDLZy5M2mxi669PKkSd4USA9OW1HAA&usqp=CAU';
+export const menu='https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,e_color,c_fill/'

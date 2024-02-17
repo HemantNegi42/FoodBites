@@ -32,6 +32,10 @@ export const appRouter = createBrowserRouter([
       path: '/contact',
       element: <Contact/>,
       },
+    {
+      path: '/resturant/:id',
+      element: <Details/>,
+      },
     ],
   },
 ])

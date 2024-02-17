@@ -1,7 +1,8 @@
 
 const Shimmer = () => {
   return (
-      <>
+    <>
+      
            <div className="bg-white h-64 w-56 p-2 mx-2 my-3">
                 <div className="bg-gray-300 h-44"></div>
                 <div>
