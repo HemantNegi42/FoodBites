@@ -15,9 +15,9 @@ function Body() {
   async function getData() {
     const res = await fetch( 'https://corsproxy.org/?https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Frestaurants%2Flist%2Fv5%3Flat%3D19.0759837%26lng%3D72.8776559%26is-seo-homepage-enabled%3Dtrue%26page_type%3DDESKTOP_WEB_LISTING');
 
-    const jsonData =await res.json();
-    setData(jsonData?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-
+    const jsonData = await res.json();
+    setData(jsonData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    
   }
   if (!data)
     return <div className="flex flex-wrap w-[90%] justify-center mx-auto">{Array(10).fill("").map(( e,index) => {
